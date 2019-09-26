@@ -1,3 +1,3 @@
-mytask1\FrontController.class
-mytask1\ViewController.class
-mytask1\MvcConfig.class
+mytask1\controller\ViewController.class
+mytask1\controller\FrontController.class
+mytask1\controller\MvcConfig.class

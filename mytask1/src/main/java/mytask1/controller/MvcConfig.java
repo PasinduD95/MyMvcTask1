@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("mytask1")
+@ComponentScan("mytask1/controller")
 public class MvcConfig extends WebMvcConfigurerAdapter{
 	
 }

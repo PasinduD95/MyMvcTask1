@@ -6,11 +6,11 @@
    http://www.springframework.org/schema/context 
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-   <context:component-scan base-package = "mytask1" />
+   <context:component-scan base-package = "mytask1/controller" />
 
    <!-- <bean id = "viewResolver" class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
       <property name = "prefix" value = "/WEB-INF/jsp/" />
       <property name = "suffix" value = ".jsp" />
-   </bean> -->
+   </bean>   -->
  
 </beans>

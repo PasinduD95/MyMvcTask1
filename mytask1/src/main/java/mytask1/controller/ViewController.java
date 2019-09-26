@@ -9,11 +9,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class ViewController {
 	
 	@RequestMapping("/view")
-	public ModelAndView view(@RequestParam("name") String name1){
+	public ModelAndView view(@RequestParam("fname") String fname, @RequestParam("lname") String lname){
 		
 		ModelAndView mv = new ModelAndView();
 		
-		mv.addObject("result", name1);
+		String fullname = fname + " " + lname;
+		mv.addObject("result", fullname);
 		mv.setViewName("result.jsp");
 		
 		return mv;
